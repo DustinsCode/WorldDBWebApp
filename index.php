@@ -5,10 +5,10 @@ session_start();
 echo "<link rel='stylesheet' type='text/css' href='styles.css' />";
 echo "<link href=\"https://fonts.googleapis.com/css?family=Roboto+Condensed\" rel=\"stylesheet\">";
 
-$host = 'cis.gvsu.edu';
-$user = 'thurstdu';
-$pass = 'thurstdu';
-$dbname = 'thurstdu';
+$host = '';
+$user = '';
+$pass = '';
+$dbname = '';
 $conn = new mysqli($host, $user, $pass, $dbname);
 
 //Query to obtain continents
