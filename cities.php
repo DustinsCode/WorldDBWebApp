@@ -6,10 +6,10 @@ echo "<link rel='stylesheet' type='text/css' href='styles.css' />";
 echo "<link href=\"https://fonts.googleapis.com/css?family=Roboto+Condensed\" rel=\"stylesheet\">";
 echo "<h1>It's a big world.</h1>";
 
-$host = 'cis.gvsu.edu';
-    $user = 'thurstdu';
-    $pass = 'thurstdu';
-    $dbname = 'thurstdu';
+$host = '';
+    $user = '';
+    $pass = '';
+    $dbname = '';
     $conn = new mysqli($host, $user, $pass, $dbname);
     $conn->set_charset("utf8");
 
