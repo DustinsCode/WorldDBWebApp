@@ -7,10 +7,10 @@ echo "<link href=\"https://fonts.googleapis.com/css?family=Roboto+Condensed\" re
 echo "<h1>It's a big world.</h1>";
 
     $contVar = urldecode($_GET['cont']);
-    $host = 'cis.gvsu.edu';
-    $user = 'thurstdu';
-    $pass = 'thurstdu';
-    $dbname = 'thurstdu';
+    $host = '';
+    $user = '';
+    $pass = '';
+    $dbname = '';
     $conn = new mysqli($host, $user, $pass, $dbname);    
     $conn->set_charset("utf8");
 
